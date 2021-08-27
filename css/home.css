@@ -81,11 +81,11 @@
   .category {
       height: 45px;
       display: flex;
-      background-color: yellow;
+      background-color: #ffd91c;
       align-items: center;
       font-family: 'Roboto', sans-serif;
       font-size: 14px;
-      color: #424242;
+      color: #575757;
       line-height: 20px;
   }
   .all-cat {
@@ -100,7 +100,7 @@
   }
   a {
       text-decoration: none;
-      color: black;
+      color: #575757;
   }
   .blue a {
       color: white;
