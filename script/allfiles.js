@@ -125,6 +125,10 @@ function appendProduct(el) {
 
     let div = document.createElement("div");
 
+    div.addEventListener("click", function() {
+        localStorage.setItem("clickedProduct", JSON.stringify(el))
+    })
+
     div.innerHTML = `<a href="products-details.html" class="each-product">
     <div>
         <img src= ${el.img} alt="">
